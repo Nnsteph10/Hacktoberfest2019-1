@@ -38,6 +38,7 @@ int main(){
     int arr[n+1];  
     arr[0] = INT_MIN;  
     for(int i=1; i<=n; i++){
+        
         cin>>arr[i];
     }
     cout<<"\nEnter th sum you want to check for: ";
